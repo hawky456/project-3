@@ -1,0 +1,27 @@
+/* Attribute Selectors ------------- */
+
+.form-contact {
+
+
+
+}
+
+#container {
+  width:95%;
+
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+
+.news input[type="checkbox"], input[type="radio"] {
+    float: left;
+    margin-left: ;
+    width: 20px;
+
+}
+
+.new label[for="checkbox"]{
+  float:right;
+}
