@@ -1,5 +1,15 @@
 /* Base Styles -------------------- */
 
+fieldset{
+border-style: none;
+
+}
+.checkbox{
+	margin-right: 40%;
+	float: right;
+	text-align: center;
+}
+
 .head{
 width:100%;
 padding: 5px;
@@ -8,32 +18,36 @@ background-color:GREY ;
 color: WHITE;
 }
 
+
 .intro{
 	 text-align:center;
 	 border-bottom-style:solid;
 	 border-color: black;
 	 padding-bottom: 50px;
 }
+
 .news{
+
+clear: none;
+}
+
+.headnews{
 	border-top-style:solid;
 	border-color: black;
 clear: both;
+
+}
+legend{
+padding:5px;
+	clear: both;
 }
 
-.textarea{
-clear:both;
-width: 100%;
-}
+
 
 .textbox{
 	margin-left: 20px;
 }
 
-.checkbox{
-	float: right;
-	margin-right: 320px;
-	width: 150px;
-}
 
 .sign{
 width:100%;
@@ -41,6 +55,7 @@ background-color:#A5F2F3;
 }
 
 footer{
+	clear: both;
 	text-align: center;
 }
 
@@ -73,6 +88,12 @@ textarea,select {
   background-color: #e8eeef;
   box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
 }
+textarea{
+clear:both;
+width: 100%;
+height: 50px;
+padding:0%;
+}
 select{
 	width:54%;
 }
@@ -90,19 +111,26 @@ input:focus{
 
 /* Media Queries -------------------- */
 
-@media (min-width: 321px) {
-	input,
-	textarea,select{
+
+	input,select{
 float:right;
 
 	}
-	#container {
-		width: 92%;
+	.textbox, .textarea{
+	margin-top: 5px;
+		margin-bottom:5px;
 	}
-}
 
-@media (max-width:320px) {
 
+
+@media (max-width:768px) {
+
+		input,
+		textarea,select{
+	float:none;
+
+
+		}
 
 .form-contact{
 	width:100%;
@@ -120,16 +148,14 @@ width: 100%;
 	margin-bottom:10px;
 }
 
-.textbox, textarea{
-padding:0px;
-	Margin:0px;
-}
+
 
 
 
 .checkbox{
 	float: right;
-	margin-right:50px;
+
+	margin-right: 0px;
 	width: 150px;
 }
 

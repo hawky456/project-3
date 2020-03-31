@@ -5,9 +5,8 @@
 
 
 }
-
 #container {
-  width:95%;
+  width:90%;
 
   max-width: 1200px;
   margin: auto;
@@ -15,13 +14,14 @@
 
 
 
-.news input[type="checkbox"], input[type="radio"] {
+ input[type="checkbox"], input[type="radio"] {
     float: left;
-    margin-left: ;
+
     width: 20px;
 
 }
 
-.new label[for="checkbox"]{
+ label[for="checkbox"]{
   float:right;
+
 }

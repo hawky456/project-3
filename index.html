@@ -19,8 +19,8 @@
       <h2> Signup for our newsletter </h2>
 			 <p>Get the latest news on how your code is doing right in your inbox</P>
 		</div>
-
-	  	<h3>Contact Information</h3>
+<fieldset>
+	  	<legend>Contact Information</legend>
 
 		  <label for="name">Full Name</label>
 		  <input type="text" id="name" placeholder="Required">
@@ -42,11 +42,13 @@
 
 			<label for="zip">Zip Code</label>
 			<input id="zip" type="text" >
-
+</fieldset>
 
 		<div class="news">
-			<h3> Newsletter </h3>
-			<p>Select the newsletters you would like to recieve</p>
+
+			<h3 class="headnews"> Newsletter </h3>
+			<fieldset>
+			<legend>Select the newsletters you would like to recieve</legend>
 
 				<label class="checkbox" for="htmlnews">HTML News</label>
 		 <input type="checkbox" id="htmlnews">
@@ -56,19 +58,22 @@
 
 		 	<label class="checkbox" for="javanews">Javascript News</label>
 		<input type="checkbox" id="javanews">
+	</fieldset>
+<fieldset>
+			<legend> Newsletter format</legend>
+				<label class="checkbox" for="html" >HTML</label>
+			<input type="radio" name="check" id="html" value="html">
 
-			<p> Newsletter format</p>
-				<label class="checkbox" for="html">HTML</label>
-			<input type="radio" id="html">
+				<label class="checkbox" for="plaintext" >Plain text</label>
+			<input type="radio" name="check" id="plaintext"  value="plaintext">
+</fieldset>
 
-				<label class="checkbox" for="plaintext">Plain text</label>
-			<input type="radio" id="plaintext">
 
-			<p> Other topics you'd like to hear about</p>
 
-				<div class="textbox">
-				<textarea class="textarea" name="message"></textarea>
-			</div>
+					<label class="textarea" for="textarea"> Other topics you'd like to hear about</label>
+
+				<textarea id="textarea" name="message"></textarea>
+
 
 			<input class="sign" type="submit" value="Sign Up">
 
