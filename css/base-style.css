@@ -1,14 +1,19 @@
 /* Base Styles -------------------- */
 
+.flex{
+width:60%;
+	display:flex;
+	flex-direction: row
+
+}
+
+
 fieldset{
 border-style: none;
 
+
 }
-.checkbox{
-	margin-right: 40%;
-	float: right;
-	text-align: center;
-}
+
 
 .head{
 width:100%;
@@ -146,17 +151,4 @@ width: 100%;
 #zip {
 	width: 50%;
 	margin-bottom:10px;
-}
-
-
-
-
-
-.checkbox{
-	float: right;
-
-	margin-right: 0px;
-	width: 150px;
-}
-
 }
