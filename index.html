@@ -23,29 +23,29 @@
 	  	<legend>Contact Information</legend>
 
 		  <label for="name">Full Name</label>
-		  <input type="text" id="name" placeholder="Required">
+		  <input name="namein" type="text" id="name" placeholder="Required">
 
      	<label for="email">Email address</label>
-     	<input type="email" id="email" placeholder="Required">
+     	<input name="emailin " type="email" id="email" placeholder="Required">
 
 			<label for="tel">Phone Number</label>
-		  <input type="tel" id="tel" >
+		  <input name="phonein" type="tel" id="tel" >
 
 			<label for="streetaddress">Street Address</label>
-			<input type="text" id="streetaddress">
+			<input name="streetaddressin" type="text" id="streetaddress">
 
 			<label for="city" >City</label>
-			<input type="text" id="city" >
+			<input name="cityin" type="text" id="city" >
 
 			<label for="state">State</label>
-			<select id="state">
+			<select name="stateselect" id="state">
 				<option value="one">1</option>
         <option value="two">2</option>
         <option value="three">3</option>
 			</select>
 
 			<label for="zip">Zip Code</label>
-			<input id="zip" type="text" >
+			<input name="zipin" id="zip" type="text" >
 </fieldset>
 
 		<div class="news">
@@ -58,16 +58,16 @@
        <fieldset>
 				 	<legend>Select the newsletters you would like to recieve</legend>
 	     <div class="flex">
-		   <input type="checkbox" id="htmlnews">
-		   <label style="" class="checkbox" for="htmlnews">HTML News</label>
+		   <input name="htmlcheckbox" type="checkbox" id="htmlnews">
+		   <label  class="checkbox" for="htmlnews">HTML News</label>
     </div>
      <div class="flex">
-		 <input type="checkbox" id="cssnews">
+		 <input name="csscheckbox" type="checkbox" id="cssnews">
 		 <label class="checkbox" for="cssnews">CSS News</label>
     </div>
 
     <div class="flex">
-		<input type="checkbox" id="javanews">
+		<input name="javacheckbox" type="checkbox" id="javanews">
 		<label class="checkbox" for="javanews">Javascript News</label>
 	  </div>
 	</fieldset>
@@ -77,7 +77,7 @@
 			<fieldset>
 					<legend> Newsletter format</legend>
 					<div class="flex">
-			<input type="radio" name="check" id="html" value="html">
+			<input  type="radio" name="check" id="html" value="html">
 			<label class="checkbox" for="html" >HTML</label>
        </div>
       <div class="flex">
@@ -93,7 +93,7 @@
 				<textarea id="textarea" name="message"></textarea>
 
 
-			<input class="sign" type="submit" value="Sign Up">
+			<input name="signup" class="sign" type="submit" value="Sign Up">
 </div>
 
 

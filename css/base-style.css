@@ -128,7 +128,7 @@ float:right;
 
 
 
-@media (max-width:768px) {
+@media (max-width:320px) {
 
 		input,
 		textarea,select{
@@ -151,4 +151,5 @@ width: 100%;
 #zip {
 	width: 50%;
 	margin-bottom:10px;
+}
 }
